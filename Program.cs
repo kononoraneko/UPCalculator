@@ -1,15 +1,13 @@
-﻿using System;
-using ArithmeticClassLibrary;
-
-
-namespace UPCalculator
+﻿namespace UPCalculator
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            ArithmeticMethods arith = new ArithmeticMethods();
+            
+            IOSystem io = new IOSystem();
 
+            io.start();
             
         }
     }
